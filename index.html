@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <script defer src="script.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-indigo-600 to-purple-600 flex items-center justify-center h-screen">
+  <div class="bg-white shadow-lg rounded-lg p-6 w-full max-w-md">
+    <h1 class="text-4xl text-center font-extrabold text-gray-800 mb-6">Tic Tac Toe</h1>
+    <div id="gameBoard" class="grid grid-cols-3 gap-4 mx-auto">
+      <div class="cell bg-gray-200 text-gray-800 text-5xl flex items-center justify-center h-28 w-28 cursor-pointer hover:bg-indigo-100 transition-colors duration-300"></div>
+      <div class="cell bg-gray-200 text-gray-800 text-5xl flex items-center justify-center h-28 w-28 cursor-pointer hover:bg-indigo-100 transition-colors duration-300"></div>
+      <div class="cell bg-gray-200 text-gray-800 text-5xl flex items-center justify-center h-28 w-28 cursor-pointer hover:bg-indigo-100 transition-colors duration-300"></div>
+      <div class="cell bg-gray-200 text-gray-800 text-5xl flex items-center justify-center h-28 w-28 cursor-pointer hover:bg-indigo-100 transition-colors duration-300"></div>
+      <div class="cell bg-gray-200 text-gray-800 text-5xl flex items-center justify-center h-28 w-28 cursor-pointer hover:bg-indigo-100 transition-colors duration-300"></div>
+      <div class="cell bg-gray-200 text-gray-800 text-5xl flex items-center justify-center h-28 w-28 cursor-pointer hover:bg-indigo-100 transition-colors duration-300"></div>
+      <div class="cell bg-gray-200 text-gray-800 text-5xl flex items-center justify-center h-28 w-28 cursor-pointer hover:bg-indigo-100 transition-colors duration-300"></div>
+      <div class="cell bg-gray-200 text-gray-800 text-5xl flex items-center justify-center h-28 w-28 cursor-pointer hover:bg-indigo-100 transition-colors duration-300"></div>
+      <div class="cell bg-gray-200 text-gray-800 text-5xl flex items-center justify-center h-28 w-28 cursor-pointer hover:bg-indigo-100 transition-colors duration-300"></div>
+    </div>
+    <button id="resetButton" class="mt-8 px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-800 transition-all duration-300 w-full">Reset Game</button>
+    <p id="status" class="text-gray-700 mt-4 text-xl text-center"></p>
+  </div>
+</body>
+</html>
+
